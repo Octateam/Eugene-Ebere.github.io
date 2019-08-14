@@ -30,6 +30,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: #000;
+
 }
 
 
@@ -212,6 +213,7 @@ blockquote {
 }
 
 .Homeimage {
+    margin-top: -90px;
     vertical-align: center;
     border-radius: 50%;
 
@@ -219,7 +221,8 @@ blockquote {
 
 
 .main {
-    background: url(../img/person-bg.jpg) no-repeat;
+    /* background: url(../img/person-bg.jpg) no-repeat; */
+    background-color: #000;
     background-size: cover;
     display: table;
     width: 100%;
@@ -683,9 +686,20 @@ blockquote {
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     transition: all ease 0.3s;
-    opacity: .7;
+
 }
 
+a .twitter:hover {
+    color: rgb(23, 129, 216);
+}
+
+a .instagram:hover {
+    color: rgb(153, 87, 240);
+}
+
+a .dribbble:hover {
+    color: palevioletred;
+}
 .social img {
     width: 15px;
 }
